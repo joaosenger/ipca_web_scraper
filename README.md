@@ -39,3 +39,13 @@ Basta executar o script `scraper.py` para raspar os dados e salvá-los no banco 
 ```bash
 python scraper.py
 ```
+
+## Linter: Flake8
+
+O Linter Flake8 está configurado no projeto. Recomendo que ao implementar novas funcionalidades nesse script o padrão de código e boas práticas da PEP 8 sejam mantidos.
+
+Para executar a verificação do linter:
+
+```bash
+flake8
+```

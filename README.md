@@ -40,6 +40,8 @@ Basta executar o script `scraper.py` para raspar os dados e salvá-los no banco 
 python scraper.py
 ```
 
+Um banco de dados SQLite será criado localmente chamado `ipca_data.db` com os dados já inseridos.
+
 ## Linter: Flake8
 
 O Linter Flake8 está configurado no projeto. Recomendo que ao implementar novas funcionalidades nesse script o padrão de código e boas práticas da PEP 8 sejam mantidos.
